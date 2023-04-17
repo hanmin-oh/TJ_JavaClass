@@ -40,6 +40,8 @@ public class BookVO {
 	public BookVO() {
 		,,, 귀찮다!! -- Crtl + space 
 	} */
+	
+	//기본 생성자
 	public BookVO() {
 		/*
 		System.out.println("기본 생성자가 실행됩니다."); //return안썼는데 자동 실행 ,,, 기본생성자가 첫줄이어야 하기 때문에 주석처리
@@ -59,7 +61,7 @@ public class BookVO {
 	//데이터를 넘겨받아 필드를 초기화시키는 생성자
 	public BookVO(String title, String author, String publisher, Date writeDate, double price) {
 		super();
-		/*
+		/* 
 		부모 클래스를 말한다 -- 부모 클래스의 생성자 (this = 현재클래스) 
 		(생략해도 컴파일러가 자동으로 붙여준다.)
 		super(): 부모 클래스의 기본 생성자를 호출한다.
@@ -76,6 +78,7 @@ public class BookVO {
 		this.writeDate = writeDate;
  		this.price = price;
 	}
+	
 	
 	/*getters & setters 메소드를 선언한다.
 	gettres & setters 메소드는 private 권한으로 선언한 필드를 클래스 외부에서 접근할 수 있도록 예외 규정을 만든다. 
