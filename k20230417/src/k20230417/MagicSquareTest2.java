@@ -21,7 +21,7 @@ public class MagicSquareTest2 {
 		
 		int[][] a = new int [n][n] ;
 		int i = 0, j = (n-1)/2;
-		for(int k = 1 ; k <=Math.pow(n, 2) ; k++) {
+		for(int k = 1 ; k <= Math.pow(n, 2) ; k++) {
 			a[i][j] = k;
 			if(k % n == 0) {
 				i++;
