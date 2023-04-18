@@ -64,10 +64,10 @@ public class BookshopMain {
 		//도서 정보를 BookList 클래스의 booklist 배열에 저장하는 메소드 실행
 		bookList.addBook(book1);
 		bookList.addBook(book2);
-//		bookList.addBook(book3);
-//		bookList.addBook(book4);
-//		bookList.addBook(book5);
-//		bookList.addBook(book6);
+		bookList.addBook(book3);
+		bookList.addBook(book4);
+		bookList.addBook(book5);
+		bookList.addBook(book6);
 		
 		
 		System.out.println(bookList);

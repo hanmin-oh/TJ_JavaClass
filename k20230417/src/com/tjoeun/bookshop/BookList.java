@@ -16,11 +16,11 @@ import java.util.Arrays;
 */
 
 public class BookList {
-
+	
 	private BookVO[] bookList; // 여러권의 책 정보를 기억할 배열을 선언만 한다. => null로 초기화된다.
 	private int size; // 배열의 크기
 	private int index; // 배열의 인덱스, 배열에 저장된 데이터의 개수
-
+	
 	public BookList() {
 		/*
 		size = 10; 
@@ -28,7 +28,7 @@ public class BookList {
 		*/
 		this(10); // this()는 현재클래스의 생성자 ,, (10)은 int size에 들어간다.
 	}
-
+	
 	public BookList(int size) {
 		super();
 		this.size = size;
