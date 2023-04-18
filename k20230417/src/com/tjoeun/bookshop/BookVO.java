@@ -5,6 +5,7 @@ import java.text.NumberFormat;
 import java.text.SimpleDateFormat;
 import java.util.Date;
 import java.util.Locale;
+import java.util.Objects;
 
 /* 	VO(Value Object) 클래스 : 1건의 데이터와 데이터를 처리하는 메소드를 모아놓은 클래스이다. 
  	VO 클래스는 DTO(Data Transfer Object)라고도 부른다. 
@@ -82,57 +83,34 @@ public class BookVO {
 	
 	/*getters & setters 메소드를 선언한다.
 	gettres & setters 메소드는 private 권한으로 선언한 필드를 클래스 외부에서 접근할 수 있도록 예외 규정을 만든다. 
-	public String getTitle (){
-		return title;
-	}
-	public void setTitle(String title) {
-		this.title = title;
-	}*/
+	 */
 	public String getTitle() {
 		return title;
 	}
-
-
 	public void setTitle(String title) {
 		this.title = title;
 	}
-
-
 	public String getAuthor() {
 		return author;
 	}
-
-
 	public void setAuthor(String author) {
 		this.author = author;
 	}
-
-
 	public String getPublisher() {
 		return publisher;
 	}
-
-
 	public void setPublisher(String publisher) {
 		this.publisher = publisher;
 	}
-
-
 	public Date getWriteDate() {
 		return writeDate;
 	}
-
-
 	public void setWriteDate(Date writeDate) {
 		this.writeDate = writeDate;
 	}
-
-
 	public double getPrice() {
 		return price;
 	}
-
-
 	public void setPrice(double price) {
 		this.price = price;
 	}
@@ -148,17 +126,47 @@ public class BookVO {
 		/*숫자 데이터 출력 서식 만들기
 		NumberFormat 클래스로 숫자 출력 서식 지정하기 => 미리 제작되서 제공되는 서식만 사용할 수 있다.
 		
-		-NumberFormat nf = NumberFormat.getNumberInstance(); // 천 단위 구분 기호
-		-NumberFormat nf = NumberFormat.getCurrencyInstance(Locale.KOREA); // 통화 표시와 천 단위 구분 기호
-		-NumberFormat nf = NumberFormat.getPercentInstance(); //백분율, 자동으로 100이 곱해진다.
+		-NumberFormat nf = NumberFormat.getNumberInstance(); -- 천 단위 구분 기호
+		-NumberFormat nf = NumberFormat.getCurrencyInstance(Locale.KOREA); -- 통화 표시와 천 단위 구분 기호
+		-NumberFormat nf = NumberFormat.getPercentInstance(); -- 백분율, 자동으로 100이 곱해진다.
 		
 		-DecimalFormat 클래스로 출력 서식 지정하기 => 만들어 사용한다.
 		-DecimalFormat df = new DecimalFormat("출력 서식");
 		-출력 서식에는 "#,##0"을 입력하고 앞, 뒤로 서식에 필요한 문자를 직접 입력해서 만든다.
-		-소수점 아래 숫자를 출력하려면 "."을 입력하고 보고싶은 자리만큼 "0"을 입력한다.*/
+		-소수점 아래 숫자를 출력하려면 "."을 입력하고 보고싶은 자리만큼 "0"을 입력한다.
+		*/
 		DecimalFormat df = new DecimalFormat("#,##0원");
 		
-		return "BookVO [title=" + title + ", author=" + author + ", publisher=" + publisher + ", writeDate=" + sdf.format(writeDate)
-			+ ", price=" + df.format(price) + "]";
+		//return "BookVO [title=" + title + ", author=" + author + ", publisher=" + publisher + ", writeDate=" + sdf.format(writeDate)
+		//	+ ", price=" + df.format(price) + "]";
+		//return title + "" + author + "" + publisher + "" + sdf.format(writeDate)
+		//+ "" + df.format(price) + "]";
+		return String.format("%s %s %s %s %s" , title, author, publisher, sdf.format(writeDate), 
+			df.format(price));
 	}
+
+
+	/*클래스 객체레 저장된 내용을 비교하려면 hashCode() 메소드와 equals() 메소드를 Override 시킨다.*/
+	@Override
+	//객체에 저장된 데이터가 같으면 같은 hashCode를 만들어준다.
+	public int hashCode() {
+		return Objects.hash(author, price, publisher, title, writeDate);
+	}
+	@Override
+	//객체의 필드에 저장된 실체 데이터끼리도 비교할 수 있도록 만들어준다.
+	public boolean equals(Object obj) {
+		if (this == obj)
+			return true;
+		if (obj == null)
+			return false;
+		if (getClass() != obj.getClass())
+			return false;
+		BookVO other = (BookVO) obj;
+		return Objects.equals(author, other.author)
+				&& Double.doubleToLongBits(price) == Double.doubleToLongBits(other.price)
+				&& Objects.equals(publisher, other.publisher) && Objects.equals(title, other.title)
+				&& Objects.equals(writeDate, other.writeDate);
+	}
+	
+	
 }
