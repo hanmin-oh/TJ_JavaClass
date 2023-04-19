@@ -9,11 +9,10 @@ public class ScoreVO {
   	 접근할 수 있다. 
   	 - static을 붙여서 선언한 변수는 현재 클래스로 생성되는 모든 객체에서 공유해서 사용한다.
 	*/
-	
-	public static int count;
+	private static int count;
 	
 	/*인스턴스 멤버 변수(필드)
-	 -인스턴스 필드는 현재 클래스로 생성하는 모든 객체에서 독립된 기억공간을 가진다.
+	-인스턴스 필드는 현재 클래스로 생성하는 모든 객체에서 독립된 기억공간을 가진다.
 	*/
 	private int idx; //자동으로 1씩 증가하는 일련번호
 	private String name; //이름

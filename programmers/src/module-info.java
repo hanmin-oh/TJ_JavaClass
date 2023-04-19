@@ -1,9 +1,0 @@
-/**
- * 
- */
-/**
- * @author TJ
- *
- */
-module BaekjoonTest {
-}

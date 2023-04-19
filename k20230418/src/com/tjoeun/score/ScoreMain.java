@@ -17,12 +17,12 @@ public class ScoreMain {
 		System.out.println(ScoreVO.count);
 		*/
 		
-		ScoreVO so1 = new ScoreVO("오한민" , 100, 100, 99);
-		ScoreVO so2 = new ScoreVO("오이민" , 45, 71, 99);
-		ScoreVO so3 = new ScoreVO("오삼민" , 24, 58, 99);
-		ScoreVO so4 = new ScoreVO("오사민" , 100, 78, 99);
-		ScoreVO so5 = new ScoreVO("오오민" , 76, 85, 99);
-		ScoreVO so6 = new ScoreVO("오육민" , 87, 65, 99);
+		ScoreVO so1 = new ScoreVO("이순신" , 100, 100, 99);
+		ScoreVO so2 = new ScoreVO("을지문덕" , 45, 71, 99);
+		ScoreVO so3 = new ScoreVO("강감찬" , 24, 58, 99);
+		ScoreVO so4 = new ScoreVO("이성계" , 100, 78, 99);
+		ScoreVO so5 = new ScoreVO("최영" , 76, 85, 99);
+		ScoreVO so6 = new ScoreVO("설윤후" , 87, 65, 99);
 		
 		ScoreList scoreList = new ScoreList();
 		

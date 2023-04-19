@@ -15,7 +15,7 @@ public class MemoVO {
 	
 	public MemoVO() {
 	}
-
+	
 	public MemoVO(String name, String password, String memo) {
 		idx = ++count;
 		this.name = name;
@@ -57,9 +57,8 @@ public class MemoVO {
 
 	@Override
 	public String toString() {
-		
-		SimpleDateFormat sdf = new SimpleDateFormat("yyyy,MM,dd(E) HH:mm:ss.SSS");
-		return String.format("%d, %s(%s)님이 %s에 남긴글\n%s", idx, name, password, sdf.format(writeDate), memo);
+		SimpleDateFormat sdf = new SimpleDateFormat("yyyy.MM.dd(E) HH:mm:ss.SSS");
+		return String.format("%d. %s(%s)님이 %s에 남긴글\n%s", idx, name, password, sdf.format(writeDate), memo);
 	}
 	
 }
