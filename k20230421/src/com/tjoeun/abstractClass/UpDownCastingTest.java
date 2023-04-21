@@ -44,18 +44,15 @@ public class UpDownCastingTest {
 		 - 자식 클래스 타입에 부모 클래스 타입의 객체가 생성된 주소를 대입하면?
 		 Sub s = new Base(); //--에러가 난다.  */
 		
-		
 		/*
 		 - 부모 클래스 타입의 객체에 자식 클래스 타입의 객체가 생성된 주소를 대입한다. => upcasting
 		 - downcasting은 부모 클래스 타입으로 upcasting된 자식 클래스를 다시 자식 클래스 타입으로
-		 변환하는 것을 말한다. */
-		
-		/*
-		Base b = new Sub();
-		- b는 부모 클래스 타입의 객체지만 자식 클래스 타입의 객체가 생성된 주소를 대입햇으므로 
-		say()라는 메소드를 실행하면 부모 클래스의 say() 메소드가 아닌 자식 클래스의 say() 메소드가
-		실행된다.
-		b.say();   */
+		 변환하는 것을 말한다.
+		 Base b = sub();
+		 - b는 부모 클래스 타입의 객체지만 자식 클래스 타입의 객체가 생성된 주소를 대입햇으므로 
+		 say()라는 메소드를 실행하면 부모 클래스의 say() 메소드가 아닌 자식 클래스의 say() 메소드가
+		 실행된다.
+		 b.say();   */
 		
 		/*자식 클래스 타입의 객체에 부모 클래스 타입의 객체가 생성된 주소를 대입한다.
 		Sub s = Base; --에러발생  */
@@ -69,7 +66,7 @@ public class UpDownCastingTest {
 		//instanceof 연산자는 객체가 instanceof 뒤에 지정한 클래스 타입으로 안전하게 형변환이 가능한지 검사한다.
 		if (sub instanceof Base) {
 			System.out.println("Sub 클래스 타입의 객체는 Base 클래스 타입으로 형변환 가능");
-			Base base2 = (Base) sub;
+			Base base2 = sub;
 			base2.say();
 		} else {
 			System.out.println("Sub 클래스 타입의 객체는 Base 클래스 타입으로 형변환 불가능");

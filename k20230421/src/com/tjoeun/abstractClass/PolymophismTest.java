@@ -2,14 +2,12 @@ package com.tjoeun.abstractClass;
 
 import java.util.Scanner;
 
-abstract /* 다형성(Polymophism)이란 같은 메소드가 서로 다른 클래스에서 다양하게 실행되는 것을 말한다. 
-다형성을 구현하기 위해서는 다형성을 구현할 메소드가 포함된 모든 클래스가 같은 부모 클래스를 
-가져야 하고 부모와 자식 클래스에 같은 이름의 메소드가 있어야 하며 자식 클래스에서 부모 클래스의
-메소드를 반드시 Override시켜서 사용해야 한다.
+/*  - 다형성(Polymophism)이란 같은 메소드가 서로 다른 클래스에서 다양하게 실행되는 것을 말한다. 
+ - 다형성을 구현하기 위해서는 다형성을 구현할 메소드가 포함된 모든 클래스가 같은 부모 클래스를 
+ 가져야 하고 부모와 자식 클래스에 같은 이름의 메소드가 있어야 하며 자식 클래스에서 부모 클래스의
+ 메소드를 반드시 Override시켜서 사용해야 한다. */
 
-*/
-
-class Shape {
+abstract class Shape {
 	int x , y;
 	void move() {}
 	abstract void draw() ; //=>다형성을 구현할 메소드

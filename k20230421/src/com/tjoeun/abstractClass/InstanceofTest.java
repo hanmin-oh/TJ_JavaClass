@@ -79,6 +79,11 @@ public class InstanceofTest {
 		
 		/*main()이라는 static 메소드에서 moveAnimal() 바로 실행하기 대문에 moveAnimal() 메소드는
 		 반드시 static으로 선언된 메소드여야 한다.*/
+
+		/*
+		moveAnimal(new Human()); 
+		moveAnimal(new Tiger()); 
+		moveAnimal(new Eagle()); */
 		moveAnimal(hAnimal); 
 		moveAnimal(tAnimal); 
 		moveAnimal(eAnimal); 
