@@ -9,7 +9,6 @@ public class Customer {
 	private int bounsPoint; //보너스 포인트
 	private double bounsRatio; //보너스 포인트 적립 비율
 	
-	
 	public Customer() {
 		customerGrade = "SILVER";
 		bounsRatio = 0.01;
