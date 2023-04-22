@@ -23,6 +23,7 @@ class Shape {
 	public final double PI;
 	public Shape() {
 		PI = 3.141592;
+		System.out.println("생성자입니다.");
 	}
 	
 }
