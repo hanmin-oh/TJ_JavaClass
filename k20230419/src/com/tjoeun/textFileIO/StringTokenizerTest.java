@@ -64,16 +64,33 @@ public class StringTokenizerTest {
 //			System.out.println(st4.nextToken());
 //		}
 //		System.out.println("(" + st4.nextToken());
-		if(st4.nextToken() != null) {
-			System.out.println("(" + st4.nextToken());
-		}
+//		if(st4.nextToken() != null) {
+//			System.out.println("(" + st4.nextToken());
+//		}
 		System.out.println("==============================");
 		/*출력과제    
 		사과(1,000원)
 		배(2,000원)
 		|
-		|
 		 */
+		DecimalFormat df = new DecimalFormat("#,##0원");
+		while (st4.hasMoreTokens()) { 
+			String str = st4.nextToken();
+			if(str.equals("=")) {
+				System.out.print("(");
+			} else if (str.equals(",")) {
+				System.out.println(")");
+			} else {
+				try {
+					System.out.print(df.format(Integer.parseInt(str)));
+				} catch (IllegalArgumentException e) {
+					System.out.print(str);
+				}
+			}
+		}
+		System.out.print(")");
+		
+		
 		
 //		String str5 = "사과(1,000원) 배(2,000원) 복숭아(3,000원) 밤(4,000원) 대추(5,000원)";
 //		StringTokenizer st5 = new StringTokenizer(str5, " ");
@@ -82,7 +99,7 @@ public class StringTokenizerTest {
 ////			System.out.println(df.format(st5.nextToken()));
 //			System.out.println(st5.nextToken());
 //		}
-		
+//		
 		
 	}
 }
