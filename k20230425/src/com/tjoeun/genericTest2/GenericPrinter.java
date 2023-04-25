@@ -17,7 +17,7 @@ public class GenericPrinter<M extends Material> {
 	public void setMaterial(M material) {
 		this.material = material;
 	}
-
+	
 	
 	
 }

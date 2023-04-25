@@ -9,8 +9,6 @@ public class Powder extends Material{
 
 	@Override
 	void doPrinting() {
-		// TODO Auto-generated method stub
-		
 	}
 	
 	
