@@ -48,10 +48,10 @@ public class StringTokenizerTest {
 		String str3 = "사과,배,복숭아.밤,대추";
 		//StringTokenizer 클래스 생성자의 2번째 인수로 구분자를 여러개 지정할 수 있다. 
 		StringTokenizer st3 = new StringTokenizer(str3, ",."); //순서 상관없다.
-//		while (st3.hasMoreTokens()) { //다음에 읽을 데이터(token)가 있는 동안 반복한다.
-//			System.out.println(st3.nextToken());
-//		}
-//		System.out.println("==============================");
+		while (st3.hasMoreTokens()) { //다음에 읽을 데이터(token)가 있는 동안 반복한다.
+			System.out.println(st3.nextToken());
+		}
+		System.out.println("==============================");
 		
 		//문자열이 "="로 구분된 경우
 		 
