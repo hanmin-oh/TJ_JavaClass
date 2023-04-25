@@ -29,27 +29,25 @@ public class HashMapTest2 {
 		System.out.println("=============================");
 		
 		//HashMap에 저장된 데이터의 key만 얻어와서 ArrayList에 저장하기
-		ArrayList<String> list = new ArrayList<>();
+		ArrayList<String> klist = new ArrayList<>();
 		for(String str : hmap.keySet()) {
-			list.add(str);
+			klist.add(str);
 		}
-		System.out.println("배열 list: " + list);
+		System.out.println("배열 list: " + klist);
 		
 		//HashMap에 저장된 데이터의 value만 얻어와서 ArrayList에 저장하기
-		ArrayList<Integer> list2 = new ArrayList<>();
+		ArrayList<Integer> vlist = new ArrayList<>();
 		for(int a : hmap.values()) {
-			list2.add(a);
+			vlist.add(a);
 		}
-		System.out.println("배열 list2: " + list2);
+		System.out.println("배열 list2: " + vlist);
 		
 		//HashMap에 저장된 데이터의 key를 이용해서 value를 얻어와서 ArrayList에 저장하기
-		/*get(key) 메소드는 HashMap에 저장된 데이터 중에서 key에 해당되는 value를 얻어온다.
-		ArrayList<Integer> list3 = new ArrayList<>();
-		System.out.println(hmap.get("banana"));
-		for(int i = 0 ; i <list3.size() ; i++) {
-			hmap.get("banana");
-			System.out.println(hmap.get("orange"));
-		} */
+		ArrayList<Integer> list = new ArrayList<>();
+		for(String key : hmap.keySet()) {
+			list.add(hmap.get(key));
+		}
+		System.out.println(list);
 		
 		
 		
