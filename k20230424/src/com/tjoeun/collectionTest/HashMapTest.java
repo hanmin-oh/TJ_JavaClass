@@ -6,6 +6,7 @@ public class HashMapTest {
 	
 	public static void main(String[] args) {
 		
+<<<<<<< HEAD
 		/*HashMap은 사전식으로 데이터를 저장한다. Key(K)에 Value(V)를 할당하는 방식으로 저장된다.
 		 - Key는 String 타입으로 저장하고 Value는 저장할 데이터 타입으로 지정한다.   */
 		HashMap<String, Integer> hmap = new HashMap<>();
@@ -13,10 +14,16 @@ public class HashMapTest {
 		//put(key , value) 메소드는 HashMap의 Key에 Value를 저장한다.
 		hmap.put("apple" , 1000);
 		//size() 메소드로 저장된 데이터의 개수를 얻어올 수 있다.
+=======
+		HashMap<String, Integer> hmap = new HashMap<>();
+		
+		hmap.put("apple" , 1000);
+>>>>>>> 534c0eb8033fb390e68c12295e4a83e4f95b604b
 		System.out.println(hmap.size() + " :" + hmap);
 		hmap.put("banana" , 500);
 		System.out.println(hmap.size() + " :" + hmap);
 		hmap.put("orange", 1500);
+<<<<<<< HEAD
 		
 		/* HashMap에 저장된 데이터를 수정하려면 put(key, vlaue)를 사용해서 수정한다.
 		 -put() 메소드로 없는 key에 데이터를 할당하면 데이터가 저장되고 있는 key에 데이터를 할당하면
@@ -44,6 +51,23 @@ public class HashMapTest {
 		
 		
 		
+=======
+		System.out.println(hmap.size() + " :" + hmap);
+		hmap.put("banana" , 1500);
+		System.out.println(hmap.size() + " :" + hmap);
+		
+		
+		//keySet() 메소드는 HashMap에 저장된 데이터의 key만 얻어온다.
+		System.out.println(hmap.keySet());
+		//values() 메소드는 HashMap에 저장된 데이터의 value만 얻어온다.
+		System.out.println(hmap.values());
+		
+		//HashMap에 저장된 데이터의 key만 얻어와서 ArrayList에 저장하기
+		
+		//HashMap에 저장된 데이터의 value만 얻어와서 ArrayList에 저장하기
+		
+		//HashMap에 저장된 데이터의 key를 이용해서 value를 얻어와서 ArrayList에 저장하기
+>>>>>>> 534c0eb8033fb390e68c12295e4a83e4f95b604b
 		
 		
 		

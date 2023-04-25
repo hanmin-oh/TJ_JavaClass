@@ -18,8 +18,11 @@ public class HashSetTest2 {
 		System.out.println(hset);
 		hset.add("장보고");
 		System.out.println(hset);
+<<<<<<< HEAD
 		hset.add("을지문덕");
 		System.out.println(hset); //중복된 데이터 안들어감
+=======
+>>>>>>> 534c0eb8033fb390e68c12295e4a83e4f95b604b
 		System.out.println("========================================");
 		
 		ArrayList<String> list = new ArrayList<>();
@@ -33,6 +36,10 @@ public class HashSetTest2 {
 			System.out.println("일반 for 사용 : " +list.get(i));
 		}
 		System.out.println("========================================");
+<<<<<<< HEAD
+=======
+		hset.remove("이순신");
+>>>>>>> 534c0eb8033fb390e68c12295e4a83e4f95b604b
 		
 		/* - Iterator<E> 인터페이스는 HashSet이나 TreeSet같이 입력되는 순서와 저장되는 순서가 달라서 get(), 
 		 set() 메소드를 사용할 수 없는 객체를 분리한다.  
@@ -43,6 +50,7 @@ public class HashSetTest2 {
 		while (iterator.hasNext()) { //Iterator 인터페이스 객체에 데이터가 있는 동안 반복한다. 
 			//next() 메소드는 Iterator 인터페이스 객체의 다음 데이터를 얻어온다.
 			System.out.println("iterator 사용 : " + iterator.next());
+<<<<<<< HEAD
 			//list.add(iterator.next()); list.add로 next() 메소드를 사용하면 데이터가 한번 건너 실행되 데이터 누락 발생 
 		}
 		System.out.println("========================================");
@@ -58,6 +66,25 @@ public class HashSetTest2 {
 			System.out.println("list 출력 : " +list.get(i));
 		}
 		System.out.println("========================================");
+=======
+		}
+		System.out.println("========================================");
+		
+		while (iterator.hasNext()) { 
+			System.out.println("iterator 사용 : " + iterator.next());
+			list.add(iterator.next());
+		}
+		
+		
+		System.out.println("========================================");
+		hset.remove("이순신");
+	
+		
+		
+		
+		
+		
+>>>>>>> 534c0eb8033fb390e68c12295e4a83e4f95b604b
 	}
 
 }
