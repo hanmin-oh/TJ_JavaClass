@@ -31,7 +31,6 @@ public class ThreadTest {
 		/* 3. Thread 객체에서 start() 메소드로 멀티 스레드를 실행한다.*/
 		thread.start();
 		
-		
 		// A-Z 를 0.2초 간격으로 출력한다.
 		for (char ch = 'A'; ch <= 'Z'; ch++) {
 			System.out.print(ch);
@@ -40,8 +39,6 @@ public class ThreadTest {
 			} catch (InterruptedException e) {
 				e.printStackTrace();
 			}
-
 		}
-
 	}
 }

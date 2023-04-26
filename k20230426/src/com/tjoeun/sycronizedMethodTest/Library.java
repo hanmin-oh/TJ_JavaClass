@@ -10,9 +10,9 @@ public class Library {
 		bookList.add("오만과 편견");
 		bookList.add("칼의 노래");
 		bookList.add("토지");
-// bookList.add("해리포터");
-// bookList.add("남한산성");
-// bookList.add("오발탄");
+		// bookList.add("해리포터");
+		// bookList.add("남한산성");
+		// bookList.add("오발탄");
 		
 	}
 	
@@ -24,7 +24,7 @@ public class Library {
 		Thread thread = Thread.currentThread();
 		
 		//대여할 책이 없으면 책이 반납될 때 가지 스레드를 일시적으로 멈춘다.
-		if (bookList.size() == 0 ) {
+		if ( bookList.size() == 0 ) {
 			try {
       			System.out.println(thread.getName() + ": 대기 시작");
 			 /* returnBook() 메소드에서 notify() 메소드를 실행해서 일시정지된 스레드를

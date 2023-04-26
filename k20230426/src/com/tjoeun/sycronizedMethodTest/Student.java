@@ -4,7 +4,7 @@ public class Student extends Thread {
 	
 	//생성자를 통해서 스레드 이름(도서를 대여할 학생 이름)
 	
-	public Student() { }
+//	public Student() { }
 	public Student(String name) {
 		super(name); //main에서 Student클래스의 객체를 만들어 메소드 실행했기 때문에 super(name)로 인한 스레드 실행
 	}
@@ -19,7 +19,6 @@ public class Student extends Thread {
 			sleep(2500); //대여 기간
 			LibraryMain.library.returnBook(book); //도서 반납
 		} catch (InterruptedException e) {
-			
 		}
 	}
 }

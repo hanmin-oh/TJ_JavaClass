@@ -25,7 +25,7 @@ public class PriorityThreadTest {
 		
 		
 		for(int i=Thread.MIN_PRIORITY ; i<=Thread.MAX_PRIORITY ; i++) {
-			PriorityThread pt = new PriorityThread("스레드-" + i);
+			PriorityThread pt = new PriorityThread("스레드-" + i); //스레드의 생성자를 할당받아 이름을 바꿨다.
 			if(i == 5 ) {
 				pt.setPriority(Thread.MAX_PRIORITY);
 			} else {

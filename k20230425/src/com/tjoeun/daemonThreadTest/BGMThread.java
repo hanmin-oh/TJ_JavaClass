@@ -13,7 +13,6 @@ public class BGMThread extends Thread{
 				// TODO Auto-generated catch block
 				e.printStackTrace();
 			}
-			break;
 		}
 	}
 }
