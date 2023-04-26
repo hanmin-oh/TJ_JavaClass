@@ -1,0 +1,16 @@
+getClass().getName() + '@' + Integer.toHexString(hashCode()) 
+class정보를 얻어와라
+calss정보를 얻어와서 class이름만 가져와라 
+'@'클래스 이름 뒤에 @붙여라
+()안에 지정된 10진수를 16진수로 바꿔라
+hashCode는 java가 임의로 붙인 일련번호
+
+subclasses는 자식클래스
+override : 재정의
+
+
+
+(overroad)
+
+생성자 이름은 클래스 이름과 같다.
+부모 클래스의 이름
