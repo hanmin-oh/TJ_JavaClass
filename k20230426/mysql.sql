@@ -1,4 +1,4 @@
-# 주석
+`javaam`# 주석
 -- 이것도 주석
 # INSERT INTO 테이블이름(필드이름, ...) VALUES (데이터, ...);
 INSERT INTO memo(NAME, PASSWORD, memo) VALUES ('이순신', '1111' , '1등 입니다.');
@@ -91,7 +91,7 @@ UPDATE memo SET PASSWORD = '5555' WHERE NAME = '강감찬';
 UPDATE memo SET PASSWORD = '6666' WHERE NAME = '김좌진';
 
 # DELETE FROM 테이블이름 [WHERE 조건식]
-DELETE FROM memo WHERE NAME = '김좌진';
+DELETE FROM memo WHERE idx = '1';
 DELETE FROM memo; 
 
 #자동 증가를 1부터 다시 시작하기 => 테이블에 데이터가 없어야 한다.
