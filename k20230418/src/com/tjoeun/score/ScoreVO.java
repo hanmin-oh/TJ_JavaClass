@@ -35,7 +35,7 @@ public class ScoreVO {
 	public ScoreVO(String name, int java, int jsp, int spring) {
 		
 		super();
-		idx = ++count;
+		count++;
 		this.name = name;
 		this.java = java;
 		this.jsp = jsp;
@@ -98,7 +98,7 @@ public class ScoreVO {
 	@Override
 	public String toString() {
 		
-		return String.format("%d %s %3d %3d %3d %3d %6.2f %d" , idx, name, java, jsp, spring, total, mean, rank);
+		return String.format("  %d %4s %3d %3d   %3d   %3d  %6.2f    %d" , idx, name, java, jsp, spring, total, mean, rank);
 		
 	}
 	

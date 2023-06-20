@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<eclipse-userlibraries>
+  <library name="mybatis-3.0.6">
+    <archive path="C:/k-digital/web/mybatis/mybatis-3.0.6.jar" />
+  </library>
+  <library name="jstl-1.2">
+    <archive path="C:/k-digital/web/mybatis/jstl-1.2.jar" />
+  </library>
+  <library name="ojdbc8">
+    <archive path="C:/k-digital/web/mybatis/ojdbc8.jar" />
+  </library>
+  <library name="lib">
+    <archive path="C:/k-digital/web/apache-tomcat-9.0.74/lib/el-api.jar" />
+    <archive path="C:/k-digital/web/apache-tomcat-9.0.74/lib/jasper.jar" />
+    <archive path="C:/k-digital/web/apache-tomcat-9.0.74/lib/ojdbc8.jar" />
+    <archive path="C:/k-digital/web/apache-tomcat-9.0.74/lib/jsp-api.jar" />
+    <archive path="C:/k-digital/web/apache-tomcat-9.0.74/lib/ojdbc11.jar" />
+    <archive path="C:/k-digital/web/apache-tomcat-9.0.74/lib/catalina.jar" />
+    <archive path="C:/k-digital/web/apache-tomcat-9.0.74/lib/ecj-4.20.jar" />
+    <archive path="C:/k-digital/web/apache-tomcat-9.0.74/lib/jstl-1.2.jar" />
+    <archive path="C:/k-digital/web/apache-tomcat-9.0.74/lib/jasper-el.jar" />
+    <archive path="C:/k-digital/web/apache-tomcat-9.0.74/lib/jaspic-api.jar" />
+    <archive path="C:/k-digital/web/apache-tomcat-9.0.74/lib/tomcat-api.jar" />
+    <archive path="C:/k-digital/web/apache-tomcat-9.0.74/lib/tomcat-jni.jar" />
+    <archive path="C:/k-digital/web/apache-tomcat-9.0.74/lib/catalina-ha.jar" />
+    <archive path="C:/k-digital/web/apache-tomcat-9.0.74/lib/servlet-api.jar" />
+    <archive path="C:/k-digital/web/apache-tomcat-9.0.74/lib/tomcat-dbcp.jar" />
+    <archive path="C:/k-digital/web/apache-tomcat-9.0.74/lib/tomcat-jdbc.jar" />
+    <archive path="C:/k-digital/web/apache-tomcat-9.0.74/lib/tomcat-util.jar" />
+    <archive path="C:/k-digital/web/apache-tomcat-9.0.74/lib/catalina-ant.jar" />
+    <archive path="C:/k-digital/web/apache-tomcat-9.0.74/lib/catalina-ssi.jar" />
+    <archive path="C:/k-digital/web/apache-tomcat-9.0.74/lib/mybatis-3.0.6.jar" />
+    <archive path="C:/k-digital/web/apache-tomcat-9.0.74/lib/tomcat-coyote.jar" />
+    <archive path="C:/k-digital/web/apache-tomcat-9.0.74/lib/websocket-api.jar" />
+    <archive path="C:/k-digital/web/apache-tomcat-9.0.74/lib/tomcat-i18n-cs.jar" />
+    <archive path="C:/k-digital/web/apache-tomcat-9.0.74/lib/tomcat-i18n-de.jar" />
+    <archive path="C:/k-digital/web/apache-tomcat-9.0.74/lib/tomcat-i18n-es.jar" />
+    <archive path="C:/k-digital/web/apache-tomcat-9.0.74/lib/tomcat-i18n-fr.jar" />
+    <archive path="C:/k-digital/web/apache-tomcat-9.0.74/lib/tomcat-i18n-ja.jar" />
+    <archive path="C:/k-digital/web/apache-tomcat-9.0.74/lib/tomcat-i18n-ko.jar" />
+    <archive path="C:/k-digital/web/apache-tomcat-9.0.74/lib/tomcat-i18n-ru.jar" />
+    <archive path="C:/k-digital/web/apache-tomcat-9.0.74/lib/annotations-api.jar" />
+    <archive path="C:/k-digital/web/apache-tomcat-9.0.74/lib/catalina-tribes.jar" />
+    <archive path="C:/k-digital/web/apache-tomcat-9.0.74/lib/commons-dbcp-1.4.jar" />
+    <archive path="C:/k-digital/web/apache-tomcat-9.0.74/lib/tomcat-util-scan.jar" />
+    <archive path="C:/k-digital/web/apache-tomcat-9.0.74/lib/tomcat-websocket.jar" />
+    <archive path="C:/k-digital/web/apache-tomcat-9.0.74/lib/tomcat-i18n-pt-BR.jar" />
+    <archive path="C:/k-digital/web/apache-tomcat-9.0.74/lib/tomcat-i18n-zh-CN.jar" />
+    <archive path="C:/k-digital/web/apache-tomcat-9.0.74/lib/commons-pool-1.5.7.jar" />
+    <archive path="C:/k-digital/web/apache-tomcat-9.0.74/lib/catalina-storeconfig.jar" />
+    <archive path="C:/k-digital/web/apache-tomcat-9.0.74/lib/ibatis-sqlmap-2.3.4.726.jar" />
+    <archive path="C:/k-digital/web/apache-tomcat-9.0.74/lib/mysql-connector-java-5.1.27-bin.jar" />
+  </library>
+  <library name="ojdbc11">
+    <archive path="C:/k-digital/web/oracle/ojdbc11.jar" />
+  </library>
+</eclipse-userlibraries>
+

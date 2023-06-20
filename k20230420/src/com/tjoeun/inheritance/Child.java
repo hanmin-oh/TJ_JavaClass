@@ -26,35 +26,37 @@ public class Child extends Parent{
 //		*/
 //		System.out.println("자식 클래스의 생성자 실행");
 //	}
-//	
+////	
 	/* 이클립스가 지원하는 생성자 자동 완성 기능을 사용할 때 현재 클래스에 물리적으로
 	정의되지 않은 필드(상속받은 필드)는 생성자를 만드는 대화상자에 표시x   */
 	
 	/*
 	부모 클래스에서 상속받은 필드의 접근 권한이 private 권한일 경우 자식 클래스에서 직접
-	접근할 수 없기 대문에 부모 클래스의 생성자를 호출해서 초기화시킨다.
-	public Child(String name, boolean gender, int age, String nickname) {
-		super(name, gender); //parent(String name , boolean gender)가 실현된다.
-		this.name = name; //에러, 부모 클래스에서 private 권한으로 설정된 필드는 접근할 수 엇ㅂ다.
-		this.gender = gender;
-		this.age = age;
-		this.nickname = nickname;
-	}
-	*/
+	접근할 수 없기 대문에 부모 클래스의 생성자를 호출해서 초기화시킨다. */
+//	public Child(String name, boolean gender, int age, String nickname) {
+//		super(name, gender); //parent(String name , boolean gender)가 실현된다.
+////		this.name = name; //에러, 부모 클래스에서 private 권한으로 설정된 필드는 접근할 수 없다..
+////		this.gender = gender;
+//		this.age = age;
+//		this.nickname = nickname;
+//	}
+	//부모클래스의 생성자 실행 출력 X
+	
 
 	/*
 	부모 클래스에서 private 권한으로 설정된 모든 필드에 setter 메소드가 
 	정의되어있다면 setter은 메소드이므로 public 권한으로 작성되었기 때문에
 	자식클래스에서 실행할 수 있으므로 부모 클래스에서 상속받은 private 권한의 
-	필드를 setter을 이용해서 초기화할 수 있다. 
-	public Child(String name, boolean gender, int age, String nickname) {
-		super();
-		setName(name);
-		setGender(gender);
-		this.age = age;
-		this.nickname = nickname;
-	}
-	*/
+	필드를 setter을 이용해서 초기화할 수 있다.  	*/
+	
+//	 public Child(String name, boolean gender, int age, String nickname) {
+//	  super(); setName(name); setGender(gender); 
+//	  this.age = age; 
+//	  this.nickname = nickname; 
+//	 }
+	 
+	//부모클래스의 생성자 실행 출력 setter를 사용했기 때문
+
 	
 	/*
 	-protected이용

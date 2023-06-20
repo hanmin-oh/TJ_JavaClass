@@ -18,10 +18,10 @@ public class ScoreMain {
 		*/
 		
 		ScoreVO so1 = new ScoreVO("이순신" , 100, 100, 99);
-		ScoreVO so2 = new ScoreVO("을지문덕" , 45, 71, 99);
+		ScoreVO so2 = new ScoreVO("장영실" , 45, 71, 99);
 		ScoreVO so3 = new ScoreVO("강감찬" , 24, 58, 99);
 		ScoreVO so4 = new ScoreVO("이성계" , 100, 78, 99);
-		ScoreVO so5 = new ScoreVO("최영" , 76, 85, 99);
+		ScoreVO so5 = new ScoreVO("장보고" , 76, 85, 99);
 		ScoreVO so6 = new ScoreVO("설윤후" , 87, 65, 99);
 		
 		ScoreList scoreList = new ScoreList();

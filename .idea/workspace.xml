@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="76ca5ba0-0b5e-4524-b960-35eaaa6a5b93" name="변경" comment="">
+      <change beforePath="$PROJECT_DIR$/CodingTestPractice/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/CodingTestPractice/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/k20230405/bin/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/k20230418/src/com/tjoeun/score/ScoreList.java" beforeDir="false" afterPath="$PROJECT_DIR$/k20230418/src/com/tjoeun/score/ScoreList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/k20230418/src/com/tjoeun/score/ScoreMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/k20230418/src/com/tjoeun/score/ScoreMain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/k20230418/src/com/tjoeun/score/ScoreVO.java" beforeDir="false" afterPath="$PROJECT_DIR$/k20230418/src/com/tjoeun/score/ScoreVO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/k20230420/src/com/tjoeun/inheritance/Child.java" beforeDir="false" afterPath="$PROJECT_DIR$/k20230420/src/com/tjoeun/inheritance/Child.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/k20230420/src/com/tjoeun/inheritance/ClassIncludeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/k20230420/src/com/tjoeun/inheritance/ClassIncludeTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/k20230420/src/com/tjoeun/inheritance/Parent.java" beforeDir="false" afterPath="$PROJECT_DIR$/k20230420/src/com/tjoeun/inheritance/Parent.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/k20230420/src/com/tjoeun/inheritance/inheritanceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/k20230420/src/com/tjoeun/inheritance/inheritanceTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/k20230424/src/com/tjoeun/collectionTest/HashMapTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/k20230424/src/com/tjoeun/collectionTest/HashMapTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/k20230424/src/com/tjoeun/collectionTest/HashSetTest2.java" beforeDir="false" afterPath="$PROJECT_DIR$/k20230424/src/com/tjoeun/collectionTest/HashSetTest2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/k20230427/src/com/tjoeun/networkTest1/Server1.java" beforeDir="false" afterPath="$PROJECT_DIR$/k20230427/src/com/tjoeun/networkTest1/Server1.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="2QEtWkpHP8TbpJnEv1DjV8RAlPk" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "C:/k-digital/web/workspace/k20230602_4_loginTest",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="애플리케이션 수준" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="디폴트 작업">
+      <changelist id="76ca5ba0-0b5e-4524-b960-35eaaa6a5b93" name="변경" comment="" />
+      <created>1684930603286</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1684930603286</updated>
+      <workItem from="1684930604362" duration="60000" />
+      <workItem from="1685702814451" duration="222000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>

@@ -59,17 +59,23 @@ public class HashSetTest2 {
 			System.out.println("list 출력 : " +list.get(i));
 		}
 		System.out.println("========================================");
-		System.out.println("========================================");
-		
 		while (iterator.hasNext()) { 
 			System.out.println("iterator 사용 : " + iterator.next());
 			list.add(iterator.next());
 		}
+		System.out.println("========================================");
+		
+		
+		for(int i = 0 ; i <list.size() ; i++) {
+			System.out.println("list 출력 : " +list.get(i));
+		}
 		
 		
 		System.out.println("========================================");
-		hset.remove("이순신");
-		
+		list.remove("이순신");
+		for(int i = 0 ; i <list.size() ; i++) {
+			System.out.println("list 출력 : " +list.get(i));
+		}
 		
 		
 		

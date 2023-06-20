@@ -24,7 +24,7 @@ public class ScoreList {
 	public String toString() {
 		String str= "";
 		str += "=================================\n";
-		str += "번호 이름 java jsp spring 총점   평균   석차 \n";
+		str += "번호  이름  java jsp spring 총점   평균   석차 \n";
 		
 		//석차 계산
 		for(int i = 0 ; i<scoreList.size()-1 ;i++) {
@@ -43,9 +43,4 @@ public class ScoreList {
 		str += "=================================";
 		return str;
 	}
-	
-
-	
-	
-	
 }

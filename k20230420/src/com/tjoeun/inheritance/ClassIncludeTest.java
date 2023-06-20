@@ -71,8 +71,8 @@ class Now extends Date, Time {  -- 에러
 */
 class Now {
 	//클래스 포함 기능
-	private Date date;
-	private Time time;
+	private Date date = new Date();;
+	private Time time = new Time();
 	
 	//기본 생성자가 실행되면 현재 날짜와 시간으로 초기화시킨다.
 	public Now() { //초기화시키지 않으면 date와 time은 null값
