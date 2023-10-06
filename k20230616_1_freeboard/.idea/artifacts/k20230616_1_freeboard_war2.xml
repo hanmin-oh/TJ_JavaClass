@@ -1,8 +1,0 @@
-<component name="ArtifactManager">
-  <artifact type="war" name="k20230616_1_freeboard:war2">
-    <output-path>$PROJECT_DIR$/out/artifacts/k20230616_1_freeboard_war2</output-path>
-    <root id="archive" name="k20230616_1_freeboard_war.war">
-      <element id="artifact" artifact-name="k20230616_1_freeboard:war exploded" />
-    </root>
-  </artifact>
-</component>
