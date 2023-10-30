@@ -4,3 +4,4 @@
 0405 : Hello World & 기본 자료형 <br/>
 0406 : 변수, Scanner, 키보드 버퍼, if문 <br/>
 0407 : for문, 배열, random, 완전수, cardSuffle <br/>
+0410 : starTest, 피보나치수열, 선택정렬, 석차계산
