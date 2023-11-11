@@ -23,7 +23,7 @@ public class Practice {
 		int j = 0;
 		j = (sum % 11) % 10;
 		if( (11 - j) %10 == jumin[12] ) {
-			System.out.println("주민번호가 정상입니다.");
+			System.out.println("올바른 주민번호입니다.");
 		} else {
 			System.out.println("잘못된 주민번호입니다.");
 		}
