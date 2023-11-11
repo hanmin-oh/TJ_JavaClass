@@ -9,6 +9,7 @@ public class BubbleSortEarlyStopTest {
 		int[] bub = {9, 1, 3, 4, 8};
 		
 		for(int i = 0 ; i < bub.length - 1 ; i++) {
+//			flag라는 이름의 변술ㄹ 만들어 0으로 초기화시킨다.
 			int flag = 0;
 			for(int j = 0; j < bub.length - 1 -i; j++) {
 				if(bub[j] > bub[j+1]) {

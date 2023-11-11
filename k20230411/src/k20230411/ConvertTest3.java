@@ -38,7 +38,4 @@ public class ConvertTest3 {
 		System.out.println(" 입니다.");
 	}
 	
-	
-	
-	
 }

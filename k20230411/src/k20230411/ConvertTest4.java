@@ -1,6 +1,5 @@
 package k20230411;
 
-import java.util.Arrays;
 import java.util.Scanner;
 
 public class ConvertTest4 {
